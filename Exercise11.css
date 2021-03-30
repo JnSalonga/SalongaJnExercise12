@@ -1,0 +1,235 @@
+*{
+	box-sizing: border-box;
+    padding:0;
+    margin:0;
+ }
+			
+			
+					
+			
+.left {
+    background-color:hsl(207, 90%, 54%);
+    border:1px solid red;
+    background-image:url(img11/asta.jpg);
+    background-position: 50%;
+    padding:10px;
+    width:48.5%;
+    float:left;
+    margin-right:10px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+.right {
+    background-color:hsl(207, 90%, 54%);
+    border:1px solid red;
+    background-image:url(img11/asta1.jpg);
+    background-position: 50%;
+    padding:10px;
+    width:48.5%; 
+    float:left;
+    height: 200px;
+    margin: 10px;
+
+}
+
+
+
+
+
+.Middle {
+    background-color:lightblue;
+    border:1px solid red;
+    background-image:url(img11/sasageyo.jpg);
+    background-position: 50%;
+    margin:10px;
+    float:left;
+    padding:200px;
+    width:98.50%;
+    
+}
+
+
+
+
+
+.LowerMid1
+{
+    background-color:lightcoral;
+    border:1px solid red;
+    background-image:url(img11/hero1.jpg);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:31.82%;
+    padding:140px;
+    float:left;
+}
+
+
+
+
+
+.LowerMid2
+{
+    background-color:lightcoral;
+    border:1px solid red;
+    background-image:url(img11/hero2.jpg);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:31.82%;
+    padding:140px;
+    float:left;
+}
+
+
+
+
+
+.LowerMid3
+{
+    background-color:lightcoral;
+    border:1px solid red;
+    background-image:url(img11/hero3.jpg);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:31.82%;
+    padding:140px;
+    float:left;
+}
+
+
+
+
+
+.foot1
+{
+    background-color:lightseagreen;
+    border:1px solid red;
+    background-image:url(img11/demon1.jpg);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:23.50%;
+    padding:100px;
+    float:left;
+}
+
+
+
+
+
+.foot2
+{
+    background-color:lightseagreen;
+    border:1px solid red;
+    background-image:url(img11/demon2.jpg);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:23.50%;
+    padding:100px;
+    float:left;
+}
+
+
+
+
+
+.foot3
+{
+    background-color:lightseagreen;
+    border:1px solid red;
+    background-image:url(img11/demon3.png);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:23.50%;
+    padding:100px;
+    float:left;
+}
+
+
+
+
+
+
+
+.foot4
+{
+    background-color:lightseagreen;
+    border:1px solid red;
+    background-image:url(img11/demon4.png);
+    background-position: 50%;
+    margin:10px;
+    height:33%;
+    width:23.50%;
+    padding:100px;
+    float:left;
+}
+
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    *{
+                box-sizing: border-box;
+                padding:0;
+                margin:0;
+            }
+			
+			
+			
+			
+			
+    .left,.right{
+        width:48%;
+    }
+
+    .Middle{
+        width:98%;
+    }
+
+    .LowerMid1,.LowerMid2,.LowerMid3{
+        width:31.3%;
+        height:390px;
+    }
+
+    .foot1,.foot2,.foot3,.foot4{
+        width:23%;
+        height:300px;
+    }
+    }
+
+    @media only screen and (max-width:768px){
+
+        .left,.right,.Middle,.LowerMid1,.LowerMid2,.LowerMid3{
+            width:98%;
+        }
+        
+        .foot1,.foot2,.foot3,.foot4{
+            width:47.3%;
+        }
+
+    }
+
+    @media only screen and (max-width:320px){
+
+        .left,.right,.LowerMid1,.LowerMid2,
+        .LowerMid3
+        {
+            width:100%;
+        }
+        .foot1,.foot2,.foot3,.foot4
+        {width:100%;}
+    }
